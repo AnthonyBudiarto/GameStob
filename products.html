@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - GameStoB</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                GameStoB
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="locations.html">Locations</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="products-page">
+
+        <h1>Game Catalog</h1>
+
+        <p class="products-description">
+            Explore thousands of authentic games,
+            DLCs, and exclusive releases from GameStoB.
+        </p>
+
+        <div class="search-container">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search games..."
+            >
+            <select id="genreFilter">
+                <option value="all">All Genres</option>
+                <option value="rpg">RPG</option>
+                <option value="adventure">Adventure</option>
+                <option value="sports">Sports</option>
+                <option value="horror">Horror</option>
+            </select>
+        </div>
+
+    <div class="game-container">
+
+    <!--cbpunk-->
+
+    <div class="game-card" data-genre="rpg">
+        <img src="assets/images/CBPUNK.jpg" alt="Cyberpunk 2077">
+
+        <h3>Cyberpunk 2077</h3>
+
+        <p>Genre : RPG</p>
+
+        <p>Platform : PC / PS5</p>
+
+        <span>$49.99</span>
+
+    <a href="purchase.html?game=cyberpunk">
+        <button class="buy-btn">
+            Buy Now
+        </button>
+    </a>
+
+    </div>
+
+    <!--EA fc-->
+
+    <div class="game-card" data-genre="sports">
+        <img src="assets/images/EASPORT.png" alt="EA Sports FC 25">
+
+        <h3>EA Sports FC 25</h3>
+
+        <p>Genre : Sports</p>
+
+        <p>Platform : PS5 / PC</p>
+
+        <span>$69.99</span>
+
+        <a href="purchase.html?game=fc25">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    <!--elden ring-->
+
+    <div class="game-card" data-genre="rpg">
+
+        <img src="assets/images/ELDENRING.jpg" alt="Elden Ring">
+
+        <h3>Elden Ring</h3>
+
+        <p>Genre : RPG</p>
+
+        <p>Platform : PC / PS5</p>
+
+        <span>$59.99</span>
+
+        <a href="purchase.html?game=elden">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    <!-- GTA V -->
+
+    <div class="game-card" data-genre="adventure">
+
+        <img src="assets/images/GTAV.png" alt="Grand Theft Auto V">
+
+        <h3>Grand Theft Auto V</h3>
+
+        <p>Genre : Adventure</p>
+
+        <p>Platform : PC / PS5</p>
+
+        <span>$39.99</span>
+
+        <a href="purchase.html?game=gta">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    <!--2K-->
+
+    <div class="game-card" data-genre="sports">
+
+        <img src="assets/images/NBA2K.webp" alt="NBA 2K25">
+
+        <h3>NBA 2K25</h3>
+
+        <p>Genre : Sports</p>
+
+        <p>Platform : PS5 / Xbox</p>
+
+        <span>$59.99</span>
+
+        <a href="purchase.html?game=nba">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    <!--rdr-->
+
+    <div class="game-card" data-genre="adventure">
+
+        <img src="assets/images/RDR.jpg" alt="Red Dead Redemption 2">
+
+        <h3>Red Dead Redemption 2</h3>
+
+        <p>Genre : Adventure</p>
+
+        <p>Platform : PC / PS5</p>
+
+        <span>$49.99</span>
+
+        <a href="purchase.html?game=rdr">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    <!--res evil-->
+
+    <div class="game-card" data-genre="horror">
+
+        <img src="assets/images/RE4New.jpg" alt="Resident Evil 4 Remake">
+
+        <h3>Resident Evil 4 Remake</h3>
+
+        <p>Genre : Horror</p>
+
+        <p>Platform : PC / PS5</p>
+
+        <span>$49.99</span>
+
+        <a href="purchase.html?game=re4">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    <!--evil within-->
+
+    <div class="game-card" data-genre="horror">
+
+        <img src="assets/images/THE EVIL WITHIN.jpg" alt="The Evil Within">
+
+        <h3>The Evil Within</h3>
+
+        <p>Genre : Horror</p>
+
+        <p>Platform : PC</p>
+
+        <span>$29.99</span>
+
+        <a href="purchase.html?game=evilwithin">
+            <button class="buy-btn">
+                 Buy Now
+            </button>
+        </a>
+
+    </div>
+
+    </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 GameStoB. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/search.js"></script>
+
+</body>
+</html>

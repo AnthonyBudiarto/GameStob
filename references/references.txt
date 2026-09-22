@@ -1,0 +1,19 @@
+REFERENCES
+
+Figma. https://www.figma.com
+
+Unsplash Images:
+https://unsplash.com/photos/54uOl2qYw8I
+https://unsplash.com/photos/xo-MJALGPrI
+https://unsplash.com/photos/JmuyB_LibRo
+
+SweetAlert2 Documentation:
+https://sweetalert2.github.io
+
+MDN Web Docs:
+JavaScript DOM Manipulation and Event Handling. Retrieved from https://developer.mozilla.org/en-US/docs/Web/JavaScript 
+CSS Flexbox Layout Guide. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout 
+CSS Media Queries for Responsive Design. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries 
+
+W3Schools:
+https://www.w3schools.com

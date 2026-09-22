@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Purchase - GameStoB</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                GameStoB
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="purchase.html">Purchase</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="locations.html">Locations</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+<section class="purchase-page">
+
+    <div class="purchase-wrapper">
+
+        <!-- GAME PREVIEW -->
+
+        <div class="game-preview">
+
+            <h2>Selected Game</h2>
+
+            <img
+                id="gameImage"
+                src="assets/images/CBPUNK.jpg"
+                alt="Game Image"
+            >
+
+            <h3 id="gameTitle">Select a Game</h3>
+
+            <p id="gameGenre">Genre : -</p>
+
+            <p id="gamePlatform">Platform : -</p>
+
+            <p id="gamePrice">Price : -</p>
+
+        </div>
+
+        <!-- PURCHASE FORM -->
+
+        <div class="purchase-container">
+
+            <h1>Purchase Form</h1>
+
+            <p>
+                Complete your payment details to purchase your favorite games.
+            </p>
+
+            <label>Select Game</label>
+
+            <select id="gameSelect">
+
+                <option value="">
+                    Choose a Game
+                </option>
+
+                <option value="cyberpunk">
+                    Cyberpunk 2077
+                </option>
+
+                <option value="elden">
+                    Elden Ring
+                </option>
+
+                <option value="gta">
+                    Grand Theft Auto V
+                </option>
+
+                <option value="nba">
+                    NBA 2K25
+                </option>
+
+                <option value="fc25">
+                    EA Sports FC 25
+                </option>
+
+                <option value="rdr">
+                    Red Dead Redemption 2
+                </option>
+
+            </select>
+
+            <form id="purchaseForm">
+
+                <!-- FULL NAME -->
+
+                <label>Full Name</label>
+
+                <input
+                    type="text"
+                    id="fullName"
+                    placeholder="Enter your full name"
+                >
+
+                <!-- EMAIL -->
+
+                <label>Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+
+                <!-- PHONE -->
+
+                <label>Phone Number</label>
+
+                <input
+                    type="text"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                >
+
+                <!-- PAYMENT -->
+
+                <label>Payment Method</label>
+
+                <select id="paymentMethod">
+
+                    <option value="">
+                        Select Payment Method
+                    </option>
+
+                    <option value="Visa">
+                        Visa
+                    </option>
+
+                    <option value="Mastercard">
+                        Mastercard
+                    </option>
+
+                    <option value="PayPal">
+                        PayPal
+                    </option>
+
+                </select>
+
+                <!-- CARD -->
+
+                <label>Credit Card Number</label>
+
+                <input
+                    type="text"
+                    id="cardNumber"
+                    placeholder="1234567812345678"
+                >
+
+                <!-- EXPIRATION -->
+
+                <label>Expiration Date</label>
+
+                <input
+                    type="month"
+                    id="expirationDate"
+                >
+
+                <!-- CVV -->
+
+                <label>CVV</label>
+
+                <input
+                    type="password"
+                    id="cvv"
+                    placeholder="123"
+                >
+
+                <!-- REGION -->
+
+                <label>Region</label>
+
+                <div class="radio-group">
+
+                    <label>
+                        <input type="radio" name="region" value="Asia">
+                        Asia
+                    </label>
+
+                    <label>
+                        <input type="radio" name="region" value="Europe">
+                        Europe
+                    </label>
+
+                    <label>
+                        <input type="radio" name="region" value="America">
+                        America
+                    </label>
+
+                </div>
+
+                <!-- NOTES -->
+
+                <label>Additional Notes</label>
+
+                <textarea
+                    id="notes"
+                    rows="5"
+                    placeholder="Write additional notes..."
+                ></textarea>
+
+                <!-- TERMS -->
+
+                <div class="checkbox-group">
+
+                    <input type="checkbox" id="terms">
+
+                    <label for="terms">
+                        I agree to the terms and conditions.
+                    </label>
+
+                </div>
+
+                <!-- SUBMIT -->
+
+                <button type="submit" class="submit-btn">
+                    Complete Purchase
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <footer>
+
+        <p>
+            © 2026 GameStoB. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/purchase.js"></script>
+
+
+</body>
+</html>
